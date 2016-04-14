@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_garselanku"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Garselanku" />
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Kategori" />
+        <item
+            android:id="@+id/nav_donasi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tindak Lanjut Donasi" />
+        <item
+            android:id="@+id/nav_keranjang"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Keranjang" />
+        <item
+            android:id="@+id/nav_transaksi"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Transaksi" />
+        <item
+            android:id="@+id/nav_kesukaan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Kesukaan" />
+        <item
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Relove Credit" />
+    </group>
+
+</menu>

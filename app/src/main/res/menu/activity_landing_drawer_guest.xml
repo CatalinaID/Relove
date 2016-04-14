@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Kategori" />
+        <item
+            android:id="@+id/nav_donasi"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tindak Lanjut Donasi" />
+        <item
+            android:id="@+id/nav_keranjang"
+            android:icon="@drawable/ic_keranjang"
+            android:title="Keranjang" />
+    </group>
+
+</menu>
