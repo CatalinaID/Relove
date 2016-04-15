@@ -3,7 +3,6 @@ package id.catalina.relove;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -13,11 +12,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class LandingActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private boolean LOGIN = false;
+    private boolean login = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,11 +43,11 @@ public class LandingActivity extends AppCompatActivity
 
         NavigationView navigationView;
         navigationView = (NavigationView) findViewById(R.id.nav_view);
-        if (LOGIN) {
-            navigationView.inflateHeaderView(R.layout.nav_header_landing);
+        if (login) {
+            navigationView.inflateHeaderView(R.layout.nav_header_landing_login);
             navigationView.inflateMenu(R.menu.activity_landing_drawer_login);
         } else {
-            navigationView.inflateHeaderView(R.layout.nav_header_landing);
+            navigationView.inflateHeaderView(R.layout.nav_header_landing_guest);
             navigationView.inflateMenu(R.menu.activity_landing_drawer_guest);
         }
         navigationView.setNavigationItemSelectedListener(this);

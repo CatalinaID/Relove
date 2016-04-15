@@ -10,4 +10,6 @@
     <string name="drawer_close">close</string>
     <string name="title_activity_landing">LandingActivity</string>
     <string name="btn_profilku">Profilku</string>
+    <string name="btn_profilku_guest">Login/Daftar</string>
+    <string name="btn_mulai_garsel">Mulai Garsel</string>
 </resources>

@@ -4,11 +4,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_kategori"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_clothe"
             android:title="Kategori" />
         <item
             android:id="@+id/nav_donasi"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_trending_up"
             android:title="Tindak Lanjut Donasi" />
         <item
             android:id="@+id/nav_keranjang"

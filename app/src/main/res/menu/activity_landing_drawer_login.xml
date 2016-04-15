@@ -4,31 +4,31 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_garselanku"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_garsale"
             android:title="Garselanku" />
         <item
             android:id="@+id/nav_kategori"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_clothe"
             android:title="Kategori" />
         <item
             android:id="@+id/nav_donasi"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_trending_up"
             android:title="Tindak Lanjut Donasi" />
         <item
             android:id="@+id/nav_keranjang"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_keranjang"
             android:title="Keranjang" />
         <item
             android:id="@+id/nav_transaksi"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_transaksi"
             android:title="Transaksi" />
         <item
             android:id="@+id/nav_kesukaan"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_love"
             android:title="Kesukaan" />
         <item
             android:id="@+id/nav_credit"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_card"
             android:title="Relove Credit" />
     </group>
 
