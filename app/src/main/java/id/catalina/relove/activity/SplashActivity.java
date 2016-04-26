@@ -1,9 +1,11 @@
-package id.catalina.relove;
+package id.catalina.relove.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import id.catalina.relove.R;
 
 public class SplashActivity extends AppCompatActivity {
 
