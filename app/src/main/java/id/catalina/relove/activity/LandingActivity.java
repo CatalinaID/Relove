@@ -22,7 +22,9 @@ import com.daimajia.slider.library.SliderTypes.DefaultSliderView;
 
 import id.catalina.relove.R;
 import id.catalina.relove.adapter.CategoryAdapter;
+import id.catalina.relove.adapter.LandingFollowUpAdapter;
 import id.catalina.relove.model.Category;
+import id.catalina.relove.model.FollowUp;
 
 public class LandingActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -69,14 +71,13 @@ public class LandingActivity extends AppCompatActivity
                 = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         RecyclerView categoriesView = (RecyclerView) findViewById(R.id.landing_categories);
         categoriesView.setLayoutManager(layoutManager1);
-        CategoryAdapter adapter = new CategoryAdapter(Category.CATEGORIES);
-        categoriesView.setAdapter(adapter);
+        categoriesView.setAdapter(new CategoryAdapter(Category.CATEGORIES));
 
         LinearLayoutManager layoutManager2
                 = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
-
         RecyclerView followupsView = (RecyclerView) findViewById(R.id.landing_followups);
         followupsView.setLayoutManager(layoutManager2);
+        followupsView.setAdapter(new LandingFollowUpAdapter(FollowUp.FOLLOW_UPS));
     }
 
     @Override
