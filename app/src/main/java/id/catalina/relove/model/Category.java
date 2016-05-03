@@ -12,15 +12,14 @@ public class Category {
     private int icon;
 
     public static final Category[] CATEGORIES = {
-            new Category(1, "Anak", "#2196F3", R.drawable.ic_category_childs),
-            new Category(2, "Elektronik", "#E91E63", R.drawable.ic_category_computer),
-            new Category(3, "Kendaraan", "#FFD600", R.drawable.ic_category_motor),
-            new Category(4, "Hewan Peliharaan", "#B71C1C", R.drawable.ic_category_pets),
-            new Category(5, "Jam", "#673AB7", R.drawable.ic_category_watches),
-            new Category(6, "Hobi", "#009688", R.drawable.ic_category_hobbies),
-            new Category(7, "Pakaian", "#795548", R.drawable.ic_drawable_kitchen),
-            new Category(8, "Tas", "#FF9800", R.drawable.ic_category_bags),
-            new Category(9, "Rumah Tangga", "#00BCD4", R.drawable.ic_category_houseware),
+            new Category(1, "Anak", "#800080", R.drawable.ic_category_childs),
+            new Category(2, "Buku", "#c83737", R.drawable.ic_category_books),
+            new Category(3, "Elektronik", "#00aa88", R.drawable.ic_category_computer),
+            new Category(4, "Fashion Pria", "#006680", R.drawable.ic_category_men),
+            new Category(5, "Fashion Wanita", "#d40055", R.drawable.ic_category_women),
+            new Category(6, "Hobi", "#ffcc00", R.drawable.ic_category_hobbies),
+            new Category(7, "Rumah Tangga", "#2ca02c", R.drawable.ic_category_houseware),
+            new Category(8, "Lain-Lain", "#5a2ca0", R.drawable.ic_category_others),
     };
 
     public Category(long id, String name, String color, int icon) {

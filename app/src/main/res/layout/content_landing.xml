@@ -40,7 +40,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/landing_categories"
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="85dp" />
 
     <LinearLayout
         android:id="@+id/landing_followup_header"

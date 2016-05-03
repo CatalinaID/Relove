@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import id.catalina.relove.R;
 import id.catalina.relove.model.Category;
 
@@ -20,11 +22,13 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView icon;
+        public TextView name;
         public View container;
 
         public ViewHolder(View v) {
             super(v);
             icon = (ImageView) v.findViewById(R.id.landing_category_item_icon);
+            name = (TextView) v.findViewById(R.id.landing_category_item_name);
             container = (View) v.findViewById(R.id.landing_category_item);
         }
     }
@@ -47,6 +51,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.icon.setImageResource(categories[position].getIcon());
+        holder.name.setText(categories[position].getName());
         holder.container.setBackgroundColor(Color.parseColor(categories[position].getColor()));
     }
 
